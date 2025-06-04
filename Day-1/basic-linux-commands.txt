@@ -1,0 +1,30 @@
+01. List directory contents 
+    # ls (or) #ls -l  
+
+02. Change directory 
+    # cd 
+
+03. Print working directory
+    # pwd 
+
+04. View file contents 
+    # cat <filename>
+    Example: # cat abc.txt
+
+05. Search text in files 
+    # grep 
+    Example: grep "error" | /home/abc.txt 
+
+06. View first lines of a file 
+    # head 
+    Example: head -10 /home/abc.txt 
+
+07. View last lines of a file 
+    # tail 
+    Example tail -10 /home/abc.txt 
+
+08. Create directory
+    # mkdir 
+
+09. Remove files or directories 
+    # rm <filename>

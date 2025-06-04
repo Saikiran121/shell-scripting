@@ -1,0 +1,36 @@
+- The Shell is a command-line interpreter that executes your commands and scripts.
+
+- Common Shells 
+    a. bash (Bourne Again Shell)
+    b. sh 
+    c. zsh
+
+- Check your shell with 
+    echo $SHELL 
+
+- Bash is the most widely used shell in Linux
+
+- Script Structure 
+    a. The first line is the shebang: #!/bin/bash tells the system to use bash to run the Script 
+    b. use echo to print output 
+    c. Save script with .sh extension (eg: abc.sh)
+
+- Running the Script
+    a. Make it executable 
+        # chmod +x hello.sh 
+    
+    b. Run it 
+        # ./hello.sh 
+
+- Editing the Script
+    a. Use text editors like vim, nano or gedit.
+    b. Example using nano: nano hello.sh 
+
+- Understanding permissions 
+    a. chmod changes file permissions
+    b. +x adds execute permissions
+    c. Check permissions with ls -l
+
+- Comments in Script
+    a. use # to add the comments.
+    b. Comments explain what the script or command does.
